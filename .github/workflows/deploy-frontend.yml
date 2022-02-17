@@ -20,7 +20,7 @@ jobs:
      username: ${{ secrets.DOCKER_HUB_USERNAME }}
      password: ${{ secrets.DOCKER_HUB_TOKEN }}
    -
-    name: prepare thhe docker-compose run
+    name: prepare the docker-compose run
     run: |
           ls -l
    -
