@@ -2,5 +2,5 @@ version: '3.3'
 services:
  frontend:
   image: seasoned132porks/234-deploylab-backend:latest
-  port:
-   - "8086:80"
+  ports:
+   - "8087:80"
